@@ -16,6 +16,6 @@ def zero_padding(image,filter_size):
     return padded_image
 
 if __name__ == '__main__':
-    image=cv2.imread('')
+    image=cv2.imread('./test_image.webp')
     cv2.imshow('img',image)
     #zero_padding(image,3)
